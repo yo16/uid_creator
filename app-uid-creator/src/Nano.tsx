@@ -21,7 +21,7 @@ export function Nano({
 
     return (
         <>
-            <span
+            <div
                 style={{
                     padding: "5px",
                     borderRadius: "3px",
@@ -31,7 +31,7 @@ export function Nano({
                 }}
             >
                 {id}
-            </span>
+            </div>
         </>
     );
 }
